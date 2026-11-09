@@ -1,6 +1,6 @@
 (ch_introductie)=
 # Introductie
-
+Hallo Rutger
 Deze repository bevat een collectie Notebooks waarmee je aan de slag gaat in Q2. Samen met je partner werk je aan de verschillende simulaties waardoor we hopen dat je thermodynamische processen beter gaat beschrijven.
 
 We hebben een automatische checker gebouwd. Die controleert of de codes die in de `main` repository staan goed zijn. Je kunt dit zelf nagaan door in de Appendix te kijken bij `Notebook checks`.
