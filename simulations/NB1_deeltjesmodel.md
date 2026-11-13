@@ -35,9 +35,6 @@ We nemen als voorbeeld twee fietsers, waarbij de fietser 1 een eenparige bewegin
 import numpy as np
 import matplotlib.pyplot as plt
 
-=======
->>>>>>> 7434a9782121aece75bc86a6f31877a7ab4038fa
-rutger
 # Beginwaarden
 dt = 0.25                  #s
 t_e = 10                   #s
@@ -150,6 +147,7 @@ Laten we nog een deeltje maken om te laten zien dat het aanroepen van update op 
 
 ```python
 that_particle = ParticleClass(m=1.0, v=[2.0, 0], r=[5.0, 0.0],R=1.0)
+
 ```
 
 ```python
