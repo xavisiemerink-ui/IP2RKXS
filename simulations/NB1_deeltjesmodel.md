@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 
 =======
 >>>>>>> 7434a9782121aece75bc86a6f31877a7ab4038fa
-
+rutger
 # Beginwaarden
 dt = 0.25                  #s
 t_e = 10                   #s
