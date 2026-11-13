@@ -35,9 +35,7 @@ We nemen als voorbeeld twee fietsers, waarbij de fietser 1 een eenparige bewegin
 import numpy as np
 import matplotlib.pyplot as plt
 
-=======
->>>>>>> 7434a9782121aece75bc86a6f31877a7ab4038fa
-rutger
+
 # Beginwaarden
 dt = 0.25                  #s
 t_e = 10                   #s
@@ -103,7 +101,7 @@ Een *class* is een blauwdruk voor het creëren van objecten (zoals deeltjes, ato
 
 class ParticleClass:
     def __init__(self, m, v, r, R):
-        self.m = m                         # massa van het deeltje
+        self.m = m                        # massa van het deeltje
         self.v = np.array(v, dtype=float)  # snelheids vector
         self.r = np.array(r, dtype=float)  # positie vector
         self.R = np.array(R, dtype=float)  # radius van het deeltje
@@ -232,7 +230,17 @@ En als je wilt gaan voor een uitdaging:
 ```
 
 ```python
-### YOUR CODE HERE ###
+import random
+p=[]
+for i in range (10):
+    part = ParticleClass(m=1.0, v=[random.randint(-5,5), 0], r=[i,i],R=1.0)
+    part.update_position(1.0)
+    p.append(part.r)
+
+x=np.array(p)
+plt.plot(x,'r.')
+plt.show()
+print(np.random.rand(1))
 ```
 
 Onze simulaties worden snel “zwaar”. Er moeten veel berekeningen gedaan worden en dat kost nu eenmaal tijd. Nu is het wel zo dat sommige berekeningen meer tijd kosten dan anderen. Om te kijken of een stukje code geoptimaliseerd kan worden, moeten we een timer maken. Dat kan met onderstaande code:
@@ -243,12 +251,12 @@ import numpy as np
 
 start = time.time()
 
-array = np.array([])
+array = []
 N = int(1e5)
 
 for i in range(N):
-    array = np.append(array,np.random.rand(1))
-
+    p=np.random.rand(1)
+    array.append(p)
 eind = time.time()
 lengte = eind - start
 
