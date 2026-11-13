@@ -35,6 +35,7 @@ We nemen als voorbeeld twee fietsers, waarbij de fietser 1 een eenparige bewegin
 import numpy as np
 import matplotlib.pyplot as plt
 Xavi
+RUTger test
 
 # Beginwaarden
 dt = 0.25                  #s
