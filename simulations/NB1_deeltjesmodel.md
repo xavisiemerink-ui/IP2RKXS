@@ -34,8 +34,9 @@ We nemen als voorbeeld twee fietsers, waarbij de fietser 1 een eenparige bewegin
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-Xavi
-RUTger test
+
+=======
+>>>>>>> 7434a9782121aece75bc86a6f31877a7ab4038fa
 
 # Beginwaarden
 dt = 0.25                  #s
