@@ -34,6 +34,7 @@ We nemen als voorbeeld twee fietsers, waarbij de fietser 1 een eenparige bewegin
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
+Xavi
 
 # Beginwaarden
 dt = 0.25                  #s
